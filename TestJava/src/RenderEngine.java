@@ -1,3 +1,3 @@
-public interface RenderEngine {
+interface RenderEngine {
     void renderSection(String name, String data);
 }
