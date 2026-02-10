@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class ReportHistory {
     private final List<ReportMemento> history = new ArrayList<>();
 
