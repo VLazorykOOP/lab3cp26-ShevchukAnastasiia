@@ -3,3 +3,5 @@ class Director {
         builder.buildHeader();
         builder.buildContent();
         builder.buildFooter();
+    }
+}
