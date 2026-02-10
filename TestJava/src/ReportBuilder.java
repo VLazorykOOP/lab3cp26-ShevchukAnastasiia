@@ -1,4 +1,4 @@
-public interface ReportBuilder {
+interface ReportBuilder {
     void buildHeader();
     void buildContent();
     void buildFooter();

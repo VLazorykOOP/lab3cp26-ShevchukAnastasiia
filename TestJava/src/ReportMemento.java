@@ -1,4 +1,4 @@
-public class ReportMemento {
+class ReportMemento {
     private final String header;
     private final String content;
     private final String footer;
@@ -8,5 +8,8 @@ public class ReportMemento {
         this.content = content;
         this.footer = footer;
     }
-    // ... (геттери)
+
+    public String getHeader() { return header; }
+    public String getContent() { return content; }
+    public String getFooter() { return footer; }
 }
